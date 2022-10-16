@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,400;8..144,700&display=swap');
+
+
+body {
+    margin: 15em;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Serif', serif;
+}
+
+#tela_login {
+    margin: 10px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+figure, h1 {
+    text-align: center;
+}
+
+img {
+    -webkit-user-drag: none;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 70px;
+}
+
+input {
+    font-size: 1.05rem;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    padding: 5px;
+}
+
+input[type=email], input[type=password] {
+    width: 250px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+input[type=submit], input[type=reset] {
+    width: 130px;
+    height: 35px;
+}
+
+input[type="submit"] {
+    background: #805e00bd;
+    color: rgb(0, 0, 0);
+}
+
+input[type="submit"]:hover {
+    background: rgba(77, 56, 0, 0.945);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+} 
+
+input[type="reset"] {
+    background: rgba(224, 2, 2, 0.753);
+    color: black;
+}
+
+input[type="reset"]:hover {
+    background: rgb(158, 0, 0);
+    color: white;
+    font-weight: bolder;
+}
+
+/* FORMATAÇÃO DA PÁGINA PEPRFIL */
+
+#tela_perfil{
+    width: 720px;
+    height: 100vh;
+    font-size: 1.25rem;
+    margin: 0 auto;
+    color: #191919;
+}
+
+@media (max-width: 720px) {
+    #tela_perfil 
+    width: 90%;
+}
+
+    #tela_perfil h1 {
+        font-size: 1.25rem;
+    }
+
+    #tela_perfil {
+        top: 10px;
+    }
+
+    .localizacao, #menu_top a {
+        font-size: 0.75rem;
+    }
+
+#foto_perfil {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+    border-radius: 100px;
+    box-shadow: 0px 0px 5px #ccc;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+figcaption {
+    display: none;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: black;
+}
+
+header {
+    height: 350px;
+    background: #ececec;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px #ccc;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+#dados {
+    width: 100%;
+    margin-top: 120px;
+}
+
+blockquote {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+
+}
+
+#locais {
+    line-height: 2rem;
+    margin-top: 10px;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+}
+ 
+.localizacao {
+    color: #222;
+}
+#menu_top {
+    float: right;
+
+}
+#menu_top a {
+    background: #1D495F;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+#menu_top a:hover {
+    text-decoration: underline;
+}
+
+section {
+    width: 100%;
+    background: #ececec;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+article {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1rem;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+article h2, #info-contatos h2 {
+    font-size: 1.85rem;
+    margin-bottom: 1rem;
+}
+
+article ul, article ol {
+    margin-left: 1.5rem;
+}
+
+article li {
+    line-height: 2.5rem;
+}
+
+#info-contatos h3 {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+#info-contatos p {
+    margin-top: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+#info-contatos a {
+    text-decoration: none;
+    color: #1D495F;
+}
+
+#rodape {
+    margin-top: 1rem;
+    background: #ececec;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#menu_rodape {
+    padding: 2rem;
+}
+
+#menu_rodape ul li {
+    list-style: circle;
+    display: inline-block;
+}
+
+#menu_rodape a, #ir_para_topo {
+    text-decoration: none;
+    color: #1D495F;
+    padding: 5px;
+}
+
+#menu_rodape a:hover {
+    text-decoration: underline;
+    background: #fff;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
